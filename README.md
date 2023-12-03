@@ -27,3 +27,9 @@ La implementacion es una maquina de estados, que pasa entre los siguientes estad
 Adicionalemnte hay un estado al cual sólo se puede acceder manteniendo presionado durante no menos de 5 segundos el boton, el estado ADMINISTRACION. En este estado podemos configurar distintas funcionalidades, además de ver el funcionamiento en tiempo real de los distintos sensores. Podemos modificar el precio de los productos y para salir de este estado necesitamos mantener de nuevo el boton durante mas de 5 segundos o entre 2 y 3 para reiniciar el sistema.
 
 Estos estasdos se ejecutan en un único hilo que es el bucle de la funcion loop(), ademñas todas las lecturas de los sensores se manejan de manera sincrona por lo que cada función se ejecuta completamente antes de pasar a la siguiente.
+
+## Demostracion: 
+
+
+https://github.com/Josetost/Practica3/assets/73531592/50938ac4-fdb8-4a15-b8aa-014622b543e4
+
